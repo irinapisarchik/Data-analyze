@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T19:17:04.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="cpONpcpgEJmGMA0-itzQ" version="18.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-04T19:19:15.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="tE64RQUQGHaOkLhzNKBY" version="18.0.0" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Concept">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -107,7 +107,7 @@
         <mxCell id="vDfDV-IyKSvf1bQxe4dL-5" value="Time" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="vDfDV-IyKSvf1bQxe4dL-1">
           <mxGeometry x="110" y="220" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="vDfDV-IyKSvf1bQxe4dL-6" value="+Date-time (TIMESTAMP)&#xa;+Detail_time (TIMESTAMP)&#xa;+Day_of_week (CHAR)&#xa;+Time_ID (INT) PK" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="vDfDV-IyKSvf1bQxe4dL-5">
+        <mxCell id="vDfDV-IyKSvf1bQxe4dL-6" value="+Date-time (TIMESTAMP)&#xa;+Detail_time (TIMESTAMP)&#xa;+Day_of_week (CHAR (15))&#xa;+Time_ID (INT) PK" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="vDfDV-IyKSvf1bQxe4dL-5">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vDfDV-IyKSvf1bQxe4dL-7" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="vDfDV-IyKSvf1bQxe4dL-5">
@@ -127,7 +127,7 @@
             <mxRectangle x="460" y="60" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vDfDV-IyKSvf1bQxe4dL-12" value="+Region_name (CHAR)&#xa;+Region_description (VARCHAR)&#xa;+Region_ID (INT) PK" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="vDfDV-IyKSvf1bQxe4dL-11">
+        <mxCell id="vDfDV-IyKSvf1bQxe4dL-12" value="+Region_name (CHAR (30))&#xa;+Region_description (VARCHAR)&#xa;+Region_ID (INT) PK" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="vDfDV-IyKSvf1bQxe4dL-11">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vDfDV-IyKSvf1bQxe4dL-13" value="Sales" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="vDfDV-IyKSvf1bQxe4dL-1">
